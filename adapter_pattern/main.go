@@ -8,5 +8,5 @@ import (
 func main() {
 	b := banner.NewBanner()
 	pb := print.NewPrintBanner(b)
-	pb.PrintWeak("my job is programmer")
+	pb.PrintStrong("my job is programmer")
 }
